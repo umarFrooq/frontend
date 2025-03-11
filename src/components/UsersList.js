@@ -9,6 +9,7 @@ const UserList = ({ onEditUser }) => {
   const [totalPages, setTotalPages] = useState(1);
   const [search, setSearch] = useState("");
 
+  
   const fetchData = async () => {
     try {
       setLoading(true);
