@@ -22,7 +22,7 @@ const EditUser = ({ user, onUserUpdated, onCancel }) => {
       setError("Failed to update user");
       setSuccess(false);
     }
-  };
+  }; 
 
   return (
     <div>
